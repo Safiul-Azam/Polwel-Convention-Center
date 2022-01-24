@@ -1,0 +1,26 @@
+.polwel-slider{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 580px;
+
+}
+.polwel-slider1{
+    background-image: url(../images/banar2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 580px;
+
+}
+.polwel-slider2{
+    background-image: url(../images/banar3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 580px;
+}
+button.polwel-btn{
+    color:white;
+}
