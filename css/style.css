@@ -1,3 +1,17 @@
+.polwel-font-color{
+    color:#231D4F;
+}
+li{
+    list-style: none;
+    line-height: 25px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li i{
+    color:#b4adebaf;
+}
 .polwel-slider{
     background-image: url(../images/banner.png);
     background-size: cover;
@@ -23,4 +37,7 @@
 }
 button.polwel-btn{
     color:white;
+}
+.polwel-package{
+    transform: translateY(-40px)
 }
