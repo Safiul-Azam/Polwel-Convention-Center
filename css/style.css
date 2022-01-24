@@ -18,7 +18,7 @@ li i{
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    height: 600px;
+    height: 584px;
 
 }
 .polwel-slider1{
@@ -26,7 +26,7 @@ li i{
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    height: 600px;
+    height: 584px;
 
 }
 .polwel-slider2{
@@ -34,14 +34,13 @@ li i{
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
-    height: 6000px;
+    height: 584px;
 }
 button.polwel-btn{
     color:white;
 }  
 .polwel-media{
     position: relative;
-    left: 25%;
     width:100%;
 }
 .polwel-package{
