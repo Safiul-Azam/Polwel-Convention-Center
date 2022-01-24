@@ -1,16 +1,22 @@
 .polwel-font-color{
     color:#231D4F;
 }
-li{
-    list-style: none;
-    line-height: 25px;
-}
 a{
     text-decoration: none;
     color: white;
 }
+li{
+    list-style: none;
+    line-height: 25px;
+}
+
 li i{
     color:#b4adebaf;
+}
+.polwel-media{
+    position: relative;
+    left: 25%;
+    width:100%;
 }
 .polwel-slider{
     background-image: url(../images/banner.png);
@@ -40,4 +46,49 @@ button.polwel-btn{
 }
 .polwel-package{
     transform: translateY(-40px)
+}
+
+ /*------------------
+  COSTOM MEDIA QUERY 
+-----------------------*/
+@media only screen and (max-width:576px){
+    .polwel-media h2{
+        font-size: 24px;
+    }
+    .polwel-media p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .polwel-center{
+        text-align: center;
+    }
+    .polwel-order:nth-child(1){
+        order:2;
+    }
+    .polwel-order:nth-child(2){
+        order:1;
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (min-width:577px) and (max-width:768px){
+    .polwel-media h2{
+        font-size: 24px;
+    }
+    .polwel-media p{
+        font-size: 12px;
+        width: 100%;
+    }
+    .polwel-center{
+        text-align: center;
+    }
+    .polwel-order:nth-child(1){
+        order:2;
+    }
+    .polwel-order:nth-child(2){
+        order:1;
+        margin-bottom: 20px;
+    }
+    .polwel-order img{
+        width:100%;
+    }
 }
