@@ -9,48 +9,47 @@ li{
     list-style: none;
     line-height: 25px;
 }
-
 li i{
     color:#b4adebaf;
 }
+/* BACKGROUND IMAGE */
+.polwel-slider{
+    background-image: url(../images/banner-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 600px;
+
+}
+.polwel-slider1{
+    background-image: url(../images/banar-2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 600px;
+
+}
+.polwel-slider2{
+    background-image: url(../images/banar-3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    height: 6000px;
+}
+button.polwel-btn{
+    color:white;
+}  
 .polwel-media{
     position: relative;
     left: 25%;
     width:100%;
 }
-.polwel-slider{
-    background-image: url(../images/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    height: 580px;
-
-}
-.polwel-slider1{
-    background-image: url(../images/banar2.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    height: 580px;
-
-}
-.polwel-slider2{
-    background-image: url(../images/banar3.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    height: 580px;
-}
-button.polwel-btn{
-    color:white;
-}
 .polwel-package{
     transform: translateY(-40px)
 }
-
- /*------------------
-  COSTOM MEDIA QUERY 
------------------------*/
+ /*---------------------------
+  COSTOM MEDIA QUERY FOR MOBAIL 
+--------------------------------*/
 @media only screen and (max-width:576px){
     .polwel-media h2{
         font-size: 24px;
@@ -70,6 +69,9 @@ button.polwel-btn{
         margin-bottom: 20px;
     }
 }
+ /*---------------------------
+  COSTOM MEDIA QUERY FOR TAB 
+--------------------------------*/
 @media only screen and (min-width:577px) and (max-width:768px){
     .polwel-media h2{
         font-size: 24px;
